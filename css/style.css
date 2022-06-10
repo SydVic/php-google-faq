@@ -1,0 +1,30 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON */
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 5rem;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #337fe2;
+}
+
+i {
+  font-size: .6rem;
+  color: #337fe2;
+}
