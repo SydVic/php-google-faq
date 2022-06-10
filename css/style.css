@@ -6,6 +6,10 @@
 }
 
 /* COMMON */
+html {
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .container {
   width: 50%;
   margin: 0 auto;
@@ -15,8 +19,14 @@ h2 {
   margin-top: 5rem;
 }
 
+h3 {
+  margin-top: 4rem;
+}
+
 p {
   margin-top: 2rem;
+  font-size: .9rem;
+  line-height: 1.4rem;
 }
 
 a {
@@ -27,4 +37,15 @@ a {
 i {
   font-size: .6rem;
   color: #337fe2;
+}
+
+ol {
+  
+  font-size: .9rem;
+  line-height: 1.4rem;
+}
+
+li {
+  margin-left: 1rem;
+  margin-top: 2rem;
 }

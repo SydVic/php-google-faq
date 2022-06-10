@@ -5,6 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google FAQ</title>
+  <!-- FONT GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400&display=swap" rel="stylesheet">
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- CUSTOM STYLESHEET -->
@@ -40,13 +44,13 @@
         "answer" => "<p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>
 
         <ol>
-          <li>  La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
+          <li>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
               <ol type='a'>
-                <li>  Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
-                <li>  Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
+                <li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
+                <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
               </ol>
           </li>
-        2.  La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
+          <li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li>
         </ol>
 
         <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>
@@ -70,13 +74,20 @@
     ];
   ?>
 
-  <div class="container">
-    <?php
-      foreach ($faqs as $key) {
-        echo $key["question"];
-        echo $key["answer"];
-      }
-    ?>
-  </div>
+  <header>
+
+
+  </header>
+
+  <main>
+    <div class="container">
+      <?php
+        foreach ($faqs as $key) {
+          echo $key["question"];
+          echo $key["answer"];
+        }
+      ?>
+    </div>
+  </main>
 </body>
 </html>
